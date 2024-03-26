@@ -14,4 +14,10 @@ describe('HelloWorld', () => {
     const wrapper = mount(HelloWorld)
     expect(wrapper.find('button')).toBeTruthy()
   })
+
+  // check if the button text is 'Click me!'
+  it('button text is "Click me!"', () => {
+    const wrapper = mount(HelloWorld)
+    expect(wrapper.find('button').text()).toBe('Click me!')
+  })
 })
