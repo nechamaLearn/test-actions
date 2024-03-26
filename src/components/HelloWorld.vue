@@ -16,6 +16,7 @@ defineProps({
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
     <button @click="console.log(msg)">Update msg</button>
+    <button @click="console.log(msg)">Update msg</button>
   </div>
 </template>
 
