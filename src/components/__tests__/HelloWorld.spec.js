@@ -16,8 +16,8 @@ describe('HelloWorld', () => {
   })
 
   // check if the button text is 'Click me!'
-  it('button text is "Click me!"', () => {
+  it('button text is "Update msg"', () => {
     const wrapper = mount(HelloWorld)
-    expect(wrapper.find('button').text()).toBe('Click me!')
+    expect(wrapper.find('button').text()).toBe('Update msg')
   })
 })
