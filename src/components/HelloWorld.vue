@@ -15,7 +15,7 @@ defineProps({
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
-    <button @click="console.log(msg)">Update msg</button>
+    <button @click="console.log(msg)">Click me!</button>
     <button @click="console.log(msg)">Update msg</button>
   </div>
 </template>
