@@ -1,4 +1,3 @@
-- [ ] nnnnnn
 - [ ] cffccf
 - [ ] check my name
 - [ ] Add more checkboxes
