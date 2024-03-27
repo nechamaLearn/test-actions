@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: ['main']
 
+env:
+  MY_NAME: nnnnn
+
 jobs:
   build:
     runs-on: ${{ matrix.os }}
@@ -21,7 +24,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }} on os ${{ matrix.os }}
+      - name: Use Node.js ${{ matrix.node-version }} name is - ${{env.MY_NAME}}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
