@@ -2,9 +2,11 @@
 defineProps({
   msg: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 });
+
+// const a =7;
 </script>
 
 <template>

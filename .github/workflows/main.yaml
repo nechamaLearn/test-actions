@@ -31,10 +31,3 @@ jobs:
           cache: 'npm'
       - run: npm i
       - run: npm run test:prod
-# add eslint and prettier test to the workflow
-#     - name: Install dependencies
-#       run: npm install
-#     - name: Lint with ESLint
-#       run: npm run lint
-#     - name: Lint with Prettier
-#       run: npm run format:check
